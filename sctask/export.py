@@ -1,3 +1,9 @@
+import os
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sctask.settings")
+
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
+
 import csv
 import pandas as pd
 from players.models import Player

@@ -1,4 +1,4 @@
-Django==1.11
+Django==1.11.18
 dropbox
 requests
 csv
